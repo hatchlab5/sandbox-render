@@ -1,0 +1,13 @@
+{
+  "name": "sandbox-render",
+  "version": "1.0.0",
+  "description": "Render untrusted or LLM-authored HTML safely: one-entry iframe sandbox plus an in-srcdoc CSP. No dependencies.",
+  "main": "sandbox-render.js",
+  "files": ["sandbox-render.js", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/sandbox-render.test.js" },
+  "keywords": ["security", "csp", "iframe", "sandbox", "untrusted", "llm", "xss", "zero-dependency"],
+  "author": "Matt Bowman",
+  "repository": { "type": "git", "url": "https://github.com/hatchlab5/sandbox-render" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
